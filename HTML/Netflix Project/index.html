@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Netflix</title>
+
+    <!--favicon-->
+    <link rel="icon" href="./images/favicon.ico" type="x-icon">
+
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!--fontsfamily-->
+    <link href="./CSS/fonts.css" rel="stylesheet">
+
+    <!--custom css-->
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <!-- media css -->
+    <link rel="stylesheet" href="./CSS/max-media.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container container-xl container-lg container-m container-sm container-xs">
+            <div class="row align-items-center d-flex justify-content-between ">
+                <div class=" logo w-2 w-m-3 w-sm-4 logo-sm">
+                    <a href="#"><img src="./images/nf-logo (2).png " alt="logo"></a>
+                </div>
+                <div class="w-5 w-sm-7 w-xs-7 ">
+                    <ul class=" align-items-center d-flex justify-content-end">
+                        <li class="margin-right position-relative drop">
+                            <button class="langauge langauge-xs">
+                                <span>A</span><span> English</span>
+                                <span><i class="fa-solid fa-angle-down arrow"></i></span>
+                            </button>
+                            <div class="dropdown position-absolute">
+                                <ul>
+                                    <li><button>ENGLISH</button></li>
+                                    <li><button>HINDI</button></li>
+                                    <li><button>Gujrati</button></li>
+                                    <li><button>Tamil</button></li>
+                                </ul>
+
+                            </div>
+                        </li>
+                        <li class="margin-right">
+                            <button class="sign-btn  sign-btn-xs">
+                                Sing In
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero ptb-80">
+            <div class="overlay"></div>
+            <div
+                class="container content mt-150 container-xl container-lg container-m container-sm mt-sm-200 container-xs">
+                <div class="row d-flex justify-content-around">
+                    <div class="w-7 d-flex w-xl-8 w-lg-9 w-m-10 content-m w-sm-10 content-sm">
+                        <h1>Unlimited movies, TV shows and more</h1>
+                        <div class="d-flex justify-content-center content-m content-sm">
+                            <p>Starts at ₹149. Cancel at any time.</p>
+                            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+                        </div>
+                    </div>
+                    <div class="w-7 d-flex justify-content-center  w-xl-9 w-lg-10 w-m-10">
+                        <div class=" email d-flex ">
+                            <form action=""
+                                class=" d-flex email-form email-form-m email-form-sm justify-content-between-sm ">
+                                <input type=" email" placeholder="Email Address">
+                                <button class="get-start"><span>Get Started </span>
+                                    <span class="right-arrow"><i class="fa-solid fa-angle-right"></i></span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="trending ptb-80">
+            <div class="container container-xl container-lg container-m container-sm container-xs">
+                <div class="row">
+                    <div class=" w-12 top-movie d-flex align-items-center mt-50 top-movie-xl">
+                        <div class="w-2 w-xl-3 w-lg-3 w-m-4 w-sm-5 w-xs-6">
+                            <h3>Trending Now </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class=" w-12 movie-img d-flex align-items-center mt-20 justify-content-around">
+                    <div class="w-2 w-xl-2 w-lg-3 w-m-4 w-sm-6 w-xs-8">
+                        <ul>
+                            <li class=" position-relative movie-fram">
+                                <div class="image-fram image-fram-xl image-fram-lg">
+                                    <img src="./images/m1.webp" alt="m1">
+                                </div>
+                                <div class="count">1</div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="w-2 w-xl-2 w-lg-3 w-m-4 w-sm-6 display-none-xs">
+                        <ul>
+                            <li class=" position-relative movie-fram ">
+                                <div class="image-fram image-fram-xl  image-fram-lg">
+                                    <img src="./images/m2.webp" alt="m1">
+                                </div>
+                                <div class="count">2</div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="w-2 w-xl-2 w-lg-3 w-m-4 display-none-sm">
+                        <ul>
+                            <li class=" position-relative movie-fram">
+                                <div class="image-fram image-fram-xl  image-fram-lg">
+                                    <img src="./images/m3.webp" alt="m1">
+                                </div>
+                                <div class="count">3</div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="w-2 w-xl-2 w-lg-3 display-none-m">
+                        <ul>
+                            <li class=" position-relative movie-fram">
+                                <div class="image-fram image-fram-xl  image-fram-lg">
+                                    <img src="./images/m4.webp" alt="m1">
+                                </div>
+                                <div class="count">4</div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="w-2 w-xl-2 display-none-lg">
+                        <ul>
+                            <li class=" position-relative movie-fram">
+                                <div class="image-fram image-fram-xl">
+                                    <img src="./images/m5.webp" alt="m1">
+                                </div>
+                                <div class="count">5</div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="w-2 display-none-xl display-none-lg">
+                        <ul>
+                            <li class=" position-relative movie-fram">
+                                <div class="image-fram">
+                                    <img src="./images/m6.webp" alt="m1">
+                                </div>
+                                <div class="count">6</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </section>
+        <section class="pb-80 ">
+            <div class="container join container-xl container-lg container-m container-sm container-xs">
+                <div class="row">
+                    <div class=" w-12 top-movie d-flex align-items-center mt-50 top-movie-xs">
+                        <div class="w-3 w-xl-4 w-m-5 w-sm-8 w-xs-9 ">
+                            <h3>More reasons to join </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-20 d-flex f-nowrap j-con-start justify-content-between justify-content-around-m">
+                    <div
+                        class="w-3 feature  position-relative w-xl-2 feature-xl w-lg-2 feature-lg w-m-5 feature-m w-sm-6 feature-sm w-xs-10">
+                        <h2 class="heading">Enjoy Your TV</h2>
+                        <p class="feature-detail">
+                            Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.
+                        </p>
+                        <img src="./images/television.png" alt="TV">
+                    </div>
+                    <div
+                        class="w-3 feature position-relative w-xl-2 feature-xl w-lg-2 feature-lg w-m-5 feature-m w-sm-6 feature-sm  w-xs-10  ">
+                        <h2 class="heading">Download your shows to watch offline</h2>
+                        <p class="feature-detail">
+                            Save your favourites easily and always have something to watch.
+                        </p>
+                        <img src="./images/down-right-arrow.png" alt="arrow">
+                    </div>
+                    <div
+                        class="w-3 feature position-relative w-xl-2 feature-xl w-lg-2 feature-lg w-m-5 feature-m w-sm-6 feature-sm  w-xs-10">
+                        <h2 class="heading">Watch everywhere</h2>
+                        <p class="feature-detail">
+                            Stream unlimited movies and TV shows on your phone, tablet, laptop and TV.
+                        </p>
+                        <img src="./images/telescope.png" alt="Feature-3">
+                    </div>
+                    <div
+                        class="w-3 feature position-relative w-xl-2 feature-xl w-lg-2 feature-lg w-m-5 feature-m w-sm-6 feature-sm  w-xs-10">
+                        <h2 class="heading">Create profiles for kids</h2>
+                        <p class="feature-detail">
+                            Send kids on adventures with their favourite characters in a space made just for them —
+                            free
+                            with your membership.
+                        </p>
+                        <img src="./images/people (1).png" alt="Feature">
+                    </div>
+                </div>
+        </section>
+        <section class="pb-80  asked-questions">
+            <div class="container container-xl container-lg container-m container-sm container-xs ml-3-xs ">
+                <div class="row">
+                    <div class=" w-12 top-movie d-flex align-items-center mt-50 top-movie-xs">
+                        <div class="w-4 w-xl-5 w-lg-6 w-m-8 w-sm-10 w-xs-12">
+                            <h3>Frequently Asked Questions </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-20 mi-3-xs">
+                    <ul>
+                        <li class="first-que position-relative">
+                            <div class="w-12 question-part  d-flex justify-content-between white ">
+                                <div class="question question-xs">
+                                    <h3>What is Netflix ? </h3>
+                                </div>
+                                <div class="plus"> <i class="fa-solid fa-plus"></i> </div>
+                            </div>
+                            <div class="answer ans1 white ">
+                                <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows,
+                                    movies, anime, documentaries and more – on thousands of internet-connected devices.
+                                </p>
+                                <p>You can watch as much as you want, whenever you want, without a single ad – all for
+                                    one low monthly price. There's always something new to discover, and new TV shows
+                                    and movies are added every week!</p>
+                            </div>
+                        </li>
+                        <li class="first-que position-relative">
+                            <div class="w-12 question-part d-flex justify-content-between white  mt-10">
+                                <div class="question question-xs">
+                                    <h3>How much does Netflix cost? </h3>
+                                </div>
+                                <div class="plus"> <i class="fa-solid fa-plus"></i> </div>
+                            </div>
+                            <div class="answer ans1 white ">
+                                <p>
+                                    Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all
+                                    for one fixed monthly fee. Plans range from ₹149 to ₹649 a month. No extra costs, no
+                                    contracts.
+                                </p>
+
+                            </div>
+                        </li>
+                        <li class="first-que position-relative">
+                            <div class="w-12 question-part d-flex justify-content-between white mt-10">
+                                <div class="question question-xs">
+                                    <h3>Where can I watch? </h3>
+                                </div>
+                                <div class="plus"> <i class="fa-solid fa-plus"></i> </div>
+                            </div>
+                            <div class="answer ans1 white">
+                                <p>
+                                    Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the
+                                    web at netflix.com from your personal computer or on any internet-connected device
+                                    that offers the Netflix app, including smart TVs, smartphones, tablets, streaming
+                                    media players and game consoles.
+                                </p>
+                                <p>
+                                    You can also download your favourite shows with the iOS or Android app. Use
+                                    downloads
+                                    to watch while you're on the go and without an internet connection. Take Netflix
+                                    with you anywhere.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="first-que position-relative">
+                            <div class="w-12 question-part d-flex justify-content-between white mt-10">
+                                <div class="question question-xs">
+                                    <h3>How can I cancel ?</h3>
+                                </div>
+                                <div class="plus"> <i class="fa-solid fa-plus"></i> </div>
+                            </div>
+                            <div class="answer ans1 white ">
+                                <p>
+                                    Netflix is flexible. There are no annoying contracts and no commitments. You can
+                                    easily cancel your account online in two clicks. There are no cancellation fees –
+                                    start or stop your account anytime.
+                                </p>
+
+                            </div>
+                        </li>
+                        <li class="first-que position-relative">
+                            <div class="w-12 question-part d-flex justify-content-between white mt-10">
+                                <div class="question question-xs">
+                                    <h3>What I can watch on Netflix ?</h3>
+                                </div>
+                                <div class="plus"> <i class="fa-solid fa-plus"></i> </div>
+                            </div>
+                            <div class="answer ans1 white ">
+                                <p>
+                                    Netflix has an extensive library of feature films, documentaries, TV shows, anime,
+                                    award-winning Netflix originals, and more. Watch as much as you want, anytime you
+                                    want.
+                                </p>
+
+                            </div>
+                        </li>
+                        <li class="first-que position-relative">
+                            <div class="w-12 question-part d-flex justify-content-between white mt-10">
+                                <div class="question question-xs">
+                                    <h3>Is Netflix good for kids ?</h3>
+                                </div>
+                                <div class="plus"> <i class="fa-solid fa-plus"></i> </div>
+                            </div>
+                            <div class="answer  ans1 white ">
+                                <p>
+                                    The Netflix Kids experience is included in your membership to give parents control
+                                    while kids enjoy family-friendly TV shows and films in their own space.
+                                </p>
+                                <p>
+                                    Kids profiles come with PIN-protected parental controls that let you restrict the
+                                    maturity rating of content kids can watch and block specific titles you don’t want
+                                    kids to see.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            </div>
+            </div>
+        </section>
+        <section class="pb-80 mr-20-xs">
+            <div class="container container-xl container-lg container-m container-sm container-xs">
+                <div class="row">
+                    <div class="w-12  ">
+                        <p class="white text-center mt-50 text-center-m">Ready to watch? Enter your email to create or
+                            restart your
+                            membership.</p>
+                        <form action=""
+                            class="email-form d-flex justify-content-center mt-20 email-form-smm email-form-xxs">
+                            <input type=" email" placeholder="Email Address">
+                            <button class="get-start"><span>Get Started </span>
+                                <span class="right-arrow"><i class="fa-solid fa-angle-right"></i></span></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container container-xl container-lg container-m container-sm container-xs pl-25-xs">
+            <div class="row mb-20 w-sm-12">
+                <p class="white">
+                    Questions?Call <a href="#">000-800-919-1743</a>
+                </p>
+            </div>
+            <div class="row mb-20 d-flex footer-question footer-question-m footer-question-sm">
+                <div class="w-3 w-m-3 w-sm-6 q-1 ">
+                    <ul>
+                        <li><a href="#"> FAO</a></li>
+                        <li><a href="#">Investor Relations</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Speed Test</a></li>
+                    </ul>
+                </div>
+
+                <div class="w-3 w-m-3 w-sm-6 q-2 ">
+                    <ul>
+                        <li><a href="#"> Help Centre</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Legal Notices</a></li>
+                        <li><a href="#">Cookie Preferences</a></li>
+                    </ul>
+                </div>
+
+                <div class="w-3 w-m-3 w-sm-6 q-3">
+                    <ul>
+                        <li><a href="#"> Account</a></li>
+                        <li><a href="#">Way to Watch</a></li>
+                        <li><a href="#">Only on Netflix</a></li>
+                        <li><a href="#">Corporate Imformation</a></li>
+                    </ul>
+                </div>
+
+                <div class="w-3 w-m-3 w-sm-6 q-4 ">
+                    <ul>
+                        <li><a href="#"> Media Center</a></li>
+                        <li><a href="#">Terms of Use </a></li>
+                        <li><a href="#">Comtact Us</a></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mb-20 mt-50 english">
+                <div class="w-5 w-m-6">
+                    <ul class="d-flex ">
+                        <li class="margin-right position-relative drop">
+                            <button class="langauge">
+                                <span>A</span><span> English</span>
+                                <span><i class="fa-solid fa-angle-down arrow"></i></span>
+                            </button>
+                            <div class="dropdown position-absolute">
+                                <ul>
+                                    <li><button>ENGLISH</button></li>
+                                    <li><button>HINDI</button></li>
+                                    <li><button>Gujrati</button></li>
+                                    <li><button>Tamil</button></li>
+                                </ul>
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mb-20 netflix">
+                <div class="w-m-10 netflix-m  w-sm-12">
+                    <p class="white">
+                        Netflix India
+                    </p>
+                    <p class="white">
+                        This page is protected by Google reCAPTCHA to ensure you're not a. <a href="#"
+                            class="learn-more">Learn more.</a>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+* {
+      box-sizing: border-box;
+}
+
+.box {
+      box-sizing: border-box;
+      border: 2px solid black;
+      width: 1305px;
+      height: auto;
+      background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(219, 134, 187, 1) 52%, rgba(253, 187, 45, 1) 100%);
+}
+
+.ol {
+      box-sizing: border-box;
+      padding-top: 10px;
+      background-image: url(../images/eccomers.jpg);
+      text-align: center;
+      font-size: 50px;
+      color: white;
+      line-height: 8px;
+      width: 1300px;
+      height: 350px;
+      background-size: 100%;
+      border-radius: 2%;
+      background-position: center;
+}
+
+.div1 {
+      margin-top: 5px;
+      box-sizing: border-box;
+      background-color: white;
+      width: 220px;
+      height: 440px;
+      border-radius: 5%;
+      margin-left: 30px;
+      margin-bottom: 10px;
+      padding-left: 10px;
+      padding-bottom: 10px;
+      padding-top: 5px;
+      display: inline-block;
+}
+
+.dot1 {
+      box-sizing: border-box;
+      background-size: cover;
+
+      height: 200px;
+}
+
+.but1 {
+      background-color: red;
+      color: white;
+      border-radius: 10%;
+      font-size: 20px;
+}
+
+.but2 {
+      background-color: #0CCC1D;
+      color: white;
+      border-radius: 10%;
+      font-size: 30px;
+      margin-left: 100px;
+}
+
+.para {
+      font-size: 20px;
+      display: block;
+}
+
+i {
+      color: #E3E03B;
+}

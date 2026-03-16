@@ -1,0 +1,71 @@
+@font-face {
+    font-family: '.';
+    src: url('../fonts/../fonts/0d32d317f248fb90c216a6f19f9df991.woff2') format('woff2'),
+        url('../fonts/0d32d317f248fb90c216a6f19f9df991.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    src: url('../fonts/NetflixSans-Bold.woff2') format('woff2'),
+        url('../fonts/NetflixSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '.';
+    src: url('../fonts/1cfd76bc16e90ad31221b4dfdf324a8e.woff2') format('woff2'),
+        url('../fonts/1cfd76bc16e90ad31221b4dfdf324a8e.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '.';
+    src: url('../fonts/21f76e20f35fd9b56134f72df9e8c447.woff2') format('woff2'),
+        url('../fonts/21f76e20f35fd9b56134f72df9e8c447.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    src: url('../fonts/NetflixSans-Light.woff2') format('woff2'),
+        url('../fonts/NetflixSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    src: url('../fonts/NetflixSans-Regular.woff2') format('woff2'),
+        url('../fonts/NetflixSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '.';
+    src: url('../fonts/f5e407b7dae2c54de4d41cd263c50159.woff2') format('woff2'),
+        url('../fonts/f5e407b7dae2c54de4d41cd263c50159.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    src: url('../fonts/NetflixSans-Medium.woff2') format('woff2'),
+        url('../fonts/NetflixSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}

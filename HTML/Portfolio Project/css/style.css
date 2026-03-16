@@ -1,0 +1,308 @@
+* {
+      box-sizing: border-box;
+      font-family: 'Rubik';
+}
+
+body {
+      background: #000;
+      color: #c1c1c1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+      color: white;
+}
+
+
+.left-effects {
+      position: fixed;
+      bottom: 50px;
+      left: 0;
+      width: 500px;
+      height: 500px;
+      border-radius: 50%;
+      background: #c471ed;
+      -webkit-filter: blur(100px);
+      filter: blur(100px);
+      opacity: 0.25;
+      pointer-events: none;
+      z-index: -1;
+}
+
+.right-effects {
+      position: fixed;
+      top: 50px;
+      right: 0;
+      bottom: auto;
+      width: 500px;
+      height: 500px;
+      border-radius: 50%;
+      background: #f64f59;
+      -webkit-filter: blur(100px);
+      filter: blur(100px);
+      opacity: 0.25;
+      pointer-events: none;
+      z-index: -1;
+}
+
+/* header */
+header {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      background: rgba(0, 0, 0, 0.59);
+}
+
+.nav-under .nav-link.active::after {
+      position: absolute;
+      content: '';
+      bottom: 0;
+      left: 0;
+      right: auto;
+      width: 100%;
+      height: 2px;
+      background-image: linear-gradient(to left, #12c2e9, #c471ed, #f64f59);
+}
+
+
+
+/* main  */
+/* home section */
+section {
+      padding-bottom: 80px;
+}
+
+.text-theme {
+      background: linear-gradient(to right, #12c2e9, #f64f59, #f64f59);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+}
+
+
+.home-banner {
+      margin-top: 10px;
+      aspect-ratio: 9/16;
+      overflow: hidden;
+
+}
+
+.home-banner img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top;
+}
+
+.home-intro .effect {
+      bottom: 0;
+      left: 2;
+      width: 0%;
+      height: 2px;
+      background-image: linear-gradient(to left, #12c2e9, #c471ed, #f64f59);
+      background-size: 120% 2px;
+      position: absolute;
+      transition: all 0.3s;
+}
+
+.home-intro .link-effect:hover .effect {
+      width: 81%;
+}
+
+/* about section*/
+.about-img {
+      position: sticky;
+      top: 120px;
+}
+
+.about-1 h3 .after {
+      bottom: 0;
+      left: 0;
+      width: 50px;
+      height: 2px;
+      background-image: linear-gradient(to left, #12c2e9, #c471ed, #f64f59);
+      background-size: 120% 2px;
+      position: absolute;
+}
+
+.circle-frame {
+      width: 415px;
+      aspect-ratio: 1/1;
+      border-radius: 50%;
+      overflow: hidden;
+}
+
+.circle-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top;
+}
+
+.about-img a {
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 3px;
+      background: #12c2e9;
+      position: relative;
+      color: #fff;
+      border: 1px solid #fff;
+      text-decoration: none;
+      transition: all 0.3s;
+}
+
+.about-img .social-icons {
+      position: absolute;
+      bottom: 40px;
+      left: 0px;
+      right: 0px;
+}
+
+.about-img a:hover {
+      background: black;
+}
+
+.about-img a.twitter {
+      top: 16px;
+}
+
+.about-img a.instagram {
+      top: 20px;
+}
+
+.about-img a.linkedin {
+      top: 16px;
+}
+
+
+
+/* services section */
+.section-heading h6 {
+      display: inline-flex;
+      padding: 8px 15px;
+      border-radius: 4px;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      -webkit-backdrop-filter: saturate(180%) blur(20px);
+      backdrop-filter: saturate(180%) blur(20px);
+      margin-bottom: 15px;
+}
+
+.feature-box-1,
+.feature-box-2 {
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      background: rgba(255, 255, 255, 0.04);
+      -webkit-backdrop-filter: saturate(180%) blur(20px);
+      backdrop-filter: saturate(180%) blur(20px);
+      border-radius: 15px;
+      padding: 35px 25px;
+      display: flex;
+      -ms-flex-align: start;
+      align-items: flex-start;
+      position: relative;
+      margin-top: 20px;
+
+}
+
+.feature-box-1 .icon {
+      width: 60px;
+      height: 60px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(to left, #12c2e9, #c471ed, #f64f59);
+      background-size: 120%;
+      font-size: 30px;
+      color: #fff;
+      border-radius: 50%;
+
+}
+
+.feature-box-1:hover {
+      transform: translateY(-8px);
+      transition: all 0.5s;
+}
+
+/* portfolio section */
+
+.image-frame img {
+      width: 100%;
+      aspect-ratio: 4/2;
+      object-fit: cover;
+      overflow: hidden;
+      transition: all 0.3s;
+      cursor: pointer;
+}
+
+.image-frame img:hover {
+      transform: scale(1.05);
+}
+
+/* core value section */
+.feature-box-2 .icon {
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      background: rgba(0, 0, 0, 0.2);
+      width: 80px;
+      height: 80px;
+      display: inline-flex;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      font-size: 40px;
+
+}
+
+/* contact section  */
+
+.contact-form .form-control {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 0.775rem 1.05rem;
+      color: white;
+      outline: none;
+      box-shadow: none;
+}
+
+.form-control::placeholder {
+      color: rgb(121, 138, 156);
+}
+
+
+.phone {
+      transform: rotate(90deg);
+}
+
+.send .after {
+      bottom: 0;
+      left: 2;
+      width: 0%;
+      height: 2px;
+      background-image: linear-gradient(to left, #12c2e9, #c471ed, #f64f59);
+      background-size: 120% 2px;
+      position: absolute;
+      transition: all 0.5s;
+}
+
+.link-effect1:hover .after {
+      width: 80%;
+}
+
+/* footer section */
+footer {
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      background: rgba(0, 0, 0, 0.59);
+}
+
+.footer-icon a {
+      color: rgba(255, 255, 255, 0.8);
+      margin-right: 10px;
+      font-size: 20px;
+}
