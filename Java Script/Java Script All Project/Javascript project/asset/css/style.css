@@ -13,3 +13,10 @@
 .no-result {
     display: none;
 }
+
+#pagination {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-block: 20px;
+}

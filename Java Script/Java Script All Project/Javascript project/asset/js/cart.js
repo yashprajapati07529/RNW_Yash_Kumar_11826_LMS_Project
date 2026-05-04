@@ -1,41 +1,54 @@
-document.addEventListener("DOMContentLoaded", DisplayCart);
-
-export function DisplayCart() {
-
-    let cart = JSON.parse(localStorage.getItem("cart")) || [];
-
-    console.log(cart);
 
 
-    let container = document.getElementById("cart")
+function DisplayCart(){
 
-    let total = 0;
+        let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
-    if (cart.lenght === 0) {
-        container.innerHTML = "<h3>Cart is Empty</h3>"
-        document.getElementById("total").innerText = ""
-        return;
-    }
+        console.log(cart);
 
-    // container.innerHTML = "";
+        let container = document.getElementById("cart")
 
-    cart.forEach((item, index) => {
-        total += item.price
+        let total = 0;
 
-        container.innerHTML += `
+        if(cart.length === 0){
+            container.innerHTML = "<h3>Cart is Empty</h3>"
+            document.getElementById("total").innerText = ""
+            return;
+        }
+
+        container.innerHTML = "";
+
+        cart.forEach((item , index) => {
+
+            total += item.price
+
+            container.innerHTML += `
             
             <tr>
-                <td>{index}</td>
-                <td><img src=${item.images} alt="image"/></td>
+                <td>${index + 1}</td>
+                <td><img src=${item.images} alt="image" class="cartImage"/></td>
                 <td><h2>${item.title}</h2></td>
                 <td><p>${item.price}</p></td>
                 <td><span>${item.quantity}</span></td>
                 <td>
-                    <button>Delete</button>
+                    <button onclick="removeCart(${index})">Delete</button>
                 </td>
             </tr>
             
             
             `
-    })
+        })
+    }
+
+DisplayCart()
+
+function removeCart(index){
+    let cart = JSON.parse(localStorage.getItem("cart") || [])
+
+    cart.splice(index , 1)
+
+
+    localStorage.setItem("cart" , JSON.stringify(cart))
+
+    DisplayCart()
 }
