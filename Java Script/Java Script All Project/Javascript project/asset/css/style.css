@@ -1,0 +1,15 @@
+.navbar {
+    z-index: 1000;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.no-result {
+    display: none;
+}
